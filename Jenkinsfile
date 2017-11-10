@@ -1,4 +1,4 @@
-stage{('Build Docker Image') {
+stage{('Deploy App') {
     sh "docker-compose up"
     }
   }      
