@@ -1,5 +1,4 @@
 node('docker')
-  stage{('Deploy App') {
+  stage('Deploy App') {
     sh "docker-compose up"
-    }
-  }      
+    }     
