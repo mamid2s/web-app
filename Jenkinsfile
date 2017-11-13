@@ -1,4 +1,4 @@
-@Library('jenkins-pipeline-libs@develop') _
+@Library('pipelineLib@develop') _
 
 sayHello()
 
