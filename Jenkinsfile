@@ -1,4 +1,4 @@
-@Library('jenkins-pipeline-libs@master') _
+@Library('jenkins-global-library@master') _
 
 sayHello()
 
