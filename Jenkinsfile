@@ -1,7 +1,3 @@
-@Library('jenkins-global-library@master') _
-
-sayHello()
-
 node('docker'){
   stage('Package') {
     checkout scm
