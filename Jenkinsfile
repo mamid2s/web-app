@@ -6,11 +6,7 @@ node('docker'){
     sh "docker build -t web-app:latest -f Dockerfile ."
   }
   stage('Say Hello'){
-
-    steps {
-      sayHello 'A'
-    }
-
+    sayHello ();
   }
   stage('Deploy App') {
     sh "docker-compose up"
