@@ -6,7 +6,6 @@ node('docker'){
     sh "docker build -t web-app:latest -f Dockerfile ."
   }
   stage('Say Hello'){
-    agent any
 
     steps {
       sayHello 'A'
