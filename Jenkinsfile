@@ -12,7 +12,7 @@ node('docker'){
     steps {
       echo "My Branch Name: ${env.BRANCH_NAME}"
       script {
-        def myLib = new linuxacademy.git.gitStuff();
+        def myLib = new smacademy.git.gitStuff();
         echo "My Commit: ${myLib("${env.WORKSPACE}/.git")}"
       }
     }
